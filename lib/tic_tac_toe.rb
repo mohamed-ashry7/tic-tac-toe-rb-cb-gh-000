@@ -102,5 +102,5 @@ def play(board)
   else
     puts "it is a draw"
   end
-    
+
 end

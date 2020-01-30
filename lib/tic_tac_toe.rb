@@ -74,5 +74,9 @@ end
 
 def full?(board)
     state = board.find{|cell| cell==" "}
-    state ? false : true 
+    state ? false : true
+end
+
+def draw?(board)
+  full? board && !won? board 
 end

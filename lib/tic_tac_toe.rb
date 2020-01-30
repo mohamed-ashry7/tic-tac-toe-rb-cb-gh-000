@@ -73,5 +73,6 @@ end
 
 
 def full?(board)
-  board.find{|cell| cell==" "}
+    state = board.find{|cell| cell==" "}
+    state ? false : true 
 end

@@ -70,3 +70,8 @@ def won?(board)
   end
   false
 end
+
+
+def full?(board)
+  board.find{|cell| cell!=" "}
+end

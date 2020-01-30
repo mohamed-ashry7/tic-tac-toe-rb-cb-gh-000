@@ -84,3 +84,8 @@ end
 def over?(board)
   full?(board) || won?(board)
 end
+
+def winner(board)
+  winner_state = won?(board)
+  winner_state? board[winner_state[0]] : nil
+end

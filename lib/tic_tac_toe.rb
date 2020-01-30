@@ -73,5 +73,5 @@ end
 
 
 def full?(board)
-  board.find{|cell| cell!=" "}
+  board.find{|cell| cell==" "}
 end
